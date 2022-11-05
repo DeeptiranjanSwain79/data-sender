@@ -1,0 +1,30 @@
+th {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+}
+
+.table-rows {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.rows-data {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+
+
+.updater-form>form>div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.updater-form>form>div>label {
+    text-align: start !important;
+    font: 900 1.2vmax "Tiro Tamil";
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.updater-form>form>div>input {
+    padding: 0.5vmax 0;
+    font: 500 1.05vmax "Poppins";
+}
