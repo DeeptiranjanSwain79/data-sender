@@ -23,6 +23,12 @@ const user = require("./routes/userRoutes");
 
 app.use("/", user);
 
+app.use(express.static(path.join(__dirname, "../frontend/build")));
+
+app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "../frontend/build/index.html"));
+})
+
 const PORT = process.env.PORT;
 
 app.listen(process.env.PORT, () => {
