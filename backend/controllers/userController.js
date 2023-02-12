@@ -104,8 +104,7 @@ exports.mail = catchAsyncError(async (req, res, next) => {
 
     const mailDetails = {
         from: 'coderhappy777@gmail.com',
-        // to: 'happy.swain.777@gmail.com',
-        to: 'info@redpositive.in',
+        to: 'happy.swain.777@gmail.com',
         subject: 'Data',
         text: message
     };
